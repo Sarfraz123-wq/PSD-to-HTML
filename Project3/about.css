@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;   
+}
+/* navbar */
+nav{
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 60px;
+}
+ul li:nth-child(1){
+    margin-left: 17%;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+}
+span{
+    font-size: 12px;
+}
+/* About1 */
+.about1,.about2{
+    margin-top: 40px;
+}
+.about1Col,.about2Col{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 30px;
+}
+.about1Col h3{
+    margin-bottom: 25px;
+}
+.about1Col p:nth-child(2){
+    margin-bottom: 25px;
+    color: #aaa9a9;
+}
+.aboutCol2,.aboutCol3,.about2Col2,.about2Col3{
+    margin-left: 30px;
+}
+.about2Col{
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+    background-color: #f8f8f8;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    
+}
+footer .container{
+    display: flex;
+}
+footer .container p:last-child
+{
+    margin-left: 20%;
+}
+/* Media Queries */
+@media (max-width:680px){
+    .container{
+        width: 500px;
+        margin: 0 auto;   
+        padding: 10px;
+    }
+    /* navbar */
+    nav{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    ul li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    ul li:nth-child(1){
+        margin-left: 0%;
+    }
+    .logo{
+        float: none;
+        display: none;
+    }
+    span{
+        font-size: 10px;
+    }
+    /* About1 */
+    .about1,.about2{
+        margin-top: 30px;
+    }
+    .about1Col,.about2Col{
+        display: block;
+        /* grid-template-columns: repeat(3,1fr); */
+        margin-bottom: 30px;
+        
+    }
+    .about1Col h3{
+        margin-top: 15px 0px;
+    }
+    .about1Col p:nth-child(2){
+        margin-bottom: 25px;
+        color: #aaa9a9;
+    }
+    .about1Col p:last-child,.about2Col p:last-child{
+        margin-bottom: 10px;
+    }
+    .aboutCol2,.aboutCol3,.about2Col2,.about2Col3{
+        margin-left: 0px;
+    }
+    .about2Col{
+        margin-bottom: 30px;
+    }
+    .about2 img{
+        margin-top: 10px;
+    }
+    /* footer */
+    footer {
+        background-color: #f8f8f8;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+    footer .container{
+        display: block;
+    }
+    footer .container p:last-child
+    {
+        margin-left: 20%;
+    }
+    
+
+}
+/* Media from 681 to 1000 */
+@media (min-width:681px) and (max-width:1000px){
+    .container{
+        width: 650px;
+        margin: 0 auto;   
+        padding: 0;
+    }
+    /* navbar */
+    nav{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    ul li{
+        display: inline-block;
+        margin-left: 15px;
+    }
+    ul li:nth-child(1){
+        margin-left: 5%;
+    }
+    .logo{
+        float: left;
+        display: block;
+    }
+    span{
+        font-size: 10px;
+    }
+    /* About1 */
+    .about1,.about2{
+        margin-top: 30px;
+    }
+    .about1Col,.about2Col{
+        display: block;
+        /* grid-template-columns: repeat(3,1fr); */
+        margin-bottom: 30px;
+        
+    }
+    .about1Col h3{
+        margin-top: 15px 0px;
+    }
+    .about1Col p:nth-child(2){
+        margin-bottom: 25px;
+        color: #aaa9a9;
+    }
+    .about1Col p:last-child,.about2Col p:last-child{
+        margin-bottom: 10px;
+    }
+    .aboutCol2,.aboutCol3,.about2Col2,.about2Col3{
+        margin-left: 0px;
+    }
+    .about2Col{
+        margin-bottom: 30px;
+    }
+    .about2 img{
+        margin-top: 10px;
+    }
+    /* footer */
+    footer {
+        background-color: #f8f8f8;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+    footer .container{
+        display: block;
+    }
+    footer .container p:last-child
+    {
+        margin-left: 20%;
+    }
+    
+
+}
